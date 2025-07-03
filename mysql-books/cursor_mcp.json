@@ -1,0 +1,10 @@
+{
+    "mcpServers": {
+      "mysql-books-mcp": {
+        "name": "mysql-books-mcp",
+        "description": "通过自然语言与MySQL数据库交互，支持表结构查询和多表智能查询。",
+        "command": "uv",
+        "args": ["run", "--directory", "D:/9workspace/mcp/mysql-books", "mcp_server.py"]
+      }
+    }
+  }
