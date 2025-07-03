@@ -7,11 +7,11 @@ from pymysql.cursors import DictCursor
 # 写死的数据库连接参数
 def get_db_conn():
     return pymysql.connect(
-        host='192.168.223.11',
+        host='127.0.0.1',
         port=3306,
-        user='tms',
-        password='tms',
-        db='docker_it48_product',
+        user='root',
+        password='root',
+        db='docker_product',
         charset='utf8mb4',
         cursorclass=DictCursor
     )
